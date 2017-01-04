@@ -1,0 +1,15 @@
+{
+  "name": "vue-py",
+  "version": "0.0.1",
+  "description": "vue 汉字转拼音插件",
+  "main": "vue-py.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "汉字转拼音"
+  ],
+  "author": "zengxiaotao",
+  "license": "MIT"
+}
