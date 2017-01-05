@@ -53,4 +53,6 @@
         })
     </script>
     ```
+### demo
 
+[vue 拼音插件demo](https://zengxiaotao.github.io/vue-py/index.html)
