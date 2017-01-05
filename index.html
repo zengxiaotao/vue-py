@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test v-py </title>
+	<script src="https://unpkg.com/vue@2.1.8/dist/vue.min.js"></script>
+	<script src='vue-py.js'></script>
+</head>
+<body>
+	<div id="app">
+		<p>不带修饰符  <span v-py='name'></span></p>
+		<p>capitalize修饰符： <span v-py.capitalize='name'></span></p>
+		<p>upperfirst修饰符： <span v-py.upperfirst='name'></span></p>
+		<input type="text" placeholder="输入中文" v-model='name'>
+	</div>
+	<script>
+		var vm = new Vue({
+			el: "#app",
+			data: {
+				name: ''
+			}
+		})
+	</script>
+</body>
+</html>
