@@ -6,7 +6,7 @@
 <script src='path/to/vue.js'></script>
 <script src='path/to/vue-py.js'></script>
 <body>
-    <div id='#app'>
+    <div id='app'>
         <p v-py='name'></p> <!--渲染成 <p>zhong guo</p>-->
     </div>
     <script>
@@ -25,7 +25,7 @@
 1. capitalize
     
     ```html
-    <div id='#app'>
+    <div id='app'>
         <p v-py.capitalize='name'></p> <!--渲染成 <p>ZHONG GUO</p>-->
     </div>
     <script>
@@ -46,7 +46,7 @@
     </div>
     <script>
         var vm = new Vue({
-            el: '#app',
+            el: 'app',
             data: {
                 name: '中国'
             }

@@ -405,7 +405,7 @@
 	}
 	vuePY.install = function(Vue) {
 		Vue.directive('py', function(el, binding) {
-			var value = binding.value || binding.expression,
+			var value = binding.value
 				chars = value.split(''),
 				modifiers = binding.modifiers,
 				length = chars.length

@@ -1,15 +1,20 @@
 {
   "name": "vue-py",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "vue 汉字转拼音插件",
   "main": "vue-py.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp"
   },
   "keywords": [
     "vue",
     "汉字转拼音"
   ],
   "author": "zengxiaotao",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
 }
