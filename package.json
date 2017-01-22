@@ -1,6 +1,6 @@
 {
   "name": "vue-py",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "vue 汉字转拼音插件",
   "main": "vue-py.js",
   "scripts": {
@@ -10,6 +10,7 @@
     "vue",
     "汉字转拼音"
   ],
+  "homepage": "https://github.com/zengxiaotao/vue-py",
   "author": "zengxiaotao",
   "license": "MIT",
   "devDependencies": {
